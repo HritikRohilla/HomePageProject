@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+header{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    float: left;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    padding-right: 34px;
+}
+nav a:hover {
+    color: rgb(221, 221, 105);
+}
+nav a:active {
+    color :rgb(221, 221, 105)
+}
+.home{
+    width: 100%;
+    height: 650px;
+    
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(31, 143, 207);
+    color: white;
+    font-size: 22px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 8%;
+  }
+  .text-wrapper{
+      width: 100%;
+      position: relative;
+      
+  }
+h1{
+    
+    font-family: 'tahoma',cursive;
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgb(240, 76, 76);
+    line-height: 105px;
+    margin-top: -20%;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'tahoma',cursive;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.btn:hover{
+    background-color: rgb(187, 187, 44);
+    text-decoration: underline;
+
+}
+section{
+    width: 40%;
+    float: left;
+    height: 650px;
+    box-sizing: content-box;
+    margin-left: 70px;
+    
+}
+.right{
+    width: 30%;
+    float: left;
+    height: 650px;
+
+}
+h3{
+    margin-top: 130px;
+    margin-left: 200px;
+    font-weight: 400;
+    float: left;
+    font-size: 2.250rem;
+    color: #16293b;
+    box-sizing: border-box;
+    line-height: 43.2px;
+    padding-left: 10px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    border-left: 3px solid #fddc57;
+}
+p{
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial;
+    margin-left: 200px;
+    padding-right: 40px;
+    text-align: left;
+    margin-top: 250px;
+}
+.img-girl{
+    margin-top: 130px;
+    padding-right: 300px;
+}
+.btn-Read {
+    font-weight: 400;
+    background-color: rgb(31, 143, 207);
+    color: white;
+    font-size: 15px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 8%;
+  }
+  .color {
+    background-color: rgb(31, 143, 207);
+    color: white;
+    font-size: 12px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 8%;
+  }
