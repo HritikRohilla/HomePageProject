@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home page</title>
+    <script type="text/javascript" src="Script.js"></script>
 </head>
 
-<body>
+<body onload="startTimer()">
     <div class="box-area">
         <header>
             <div class="logo">
@@ -33,9 +34,10 @@
         </div>
         <br>
         <div class="main">
-            <section>
-                <h3 >INTRODUCING<br>imagiobox</h3>
-                <p>Imagiobox is world's first smart activity subscription box designed to meet the creative needs of
+            <section class="left-side">
+                <h3>INTRODUCING<br>imagiobox</h3>
+                <p class="para">Imagiobox is world's first smart activity subscription box designed to meet the creative
+                    needs of
                     young developing minds.
                     <br>
                     <br>
@@ -52,10 +54,43 @@
                 <button class="color">Colorpencil</button>
             </section>
             <aside class="right">
-                <img class="img-girl" src="girl.jpg" alt="" weight="435" height="514">
+                <img class="img-girl" src="girl.jpg" alt="" width="435" height="514">
             </aside>
 
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="main-2">
+            <section class="gallary">
+                <img class="Gal-img" id="img" src="3 month.jpg" width="394">
+                <button class="prev" type="button" onclick="displayPreviousImage()">&#10094;</button>
+                <button class="next" type="button" onclick="displayNextImage()">&#10095;</button>
+            </section>
+            <aside class="right-2">
+                <h4>HOW IMAGIO BOX<br>SUBSCRIPTION<br>WORKS?</h4>
+                <p class="para-2">Imagiobox and ColorPencil combo provides your kid a smart way to develop creativity.
+                    <br>
+                    <br>
+                    You can subscribe for your IMAGIO box based on any of our monthly subscription plans.
+                    <br>
+                    <br>
+                    After subscription you will receive at your door step every month a customized art activity box
+                    designed for your child's age group.
+                    <br>
+                    <br>
+                    You will get regular updates from us on the registered mobile number and email id about the box and
+                    the delivery.
+                    <br>
+                    <br>
+                    Imagiobox subscribers get access to the smart application ColorPencil specially created for the kids
+                    to track their progress and participate in several events and competitions organised frequently.
+                </p>
+                <button class="shop-2">Shop-Now</button>
+            </aside>
+        </div>
+        <div class="conatiner-3"></div>
     </div>
 </body>
 
